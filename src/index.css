@@ -1,0 +1,10 @@
+*{
+    font-family: 'Roboto' , sans-serif;
+}
+.body-1{
+    width: 100%;
+    height: fit-content;
+}
+.margin-075{
+  margin: 0.75rem;
+}

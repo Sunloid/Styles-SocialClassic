@@ -1,0 +1,10 @@
+.post-like{
+    margin-left:1rem;
+    margin-top: 1rem;
+}
+.post-button{
+    border: none;
+    width: 3rem;
+    background-color: white;
+    height: 3rem;
+}

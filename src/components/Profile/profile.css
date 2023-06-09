@@ -1,0 +1,36 @@
+.profile{
+    margin: 0;
+}
+.profile-rightTop{
+    margin-top: 0rem;
+    margin-left: 24.01rem;
+    
+}
+.profile-banner{
+    width: 95.65rem;
+    height: 30rem;    
+    border: 2px white;
+    object-fit: cover;
+}
+.profileUserPfp{
+    width: 12rem;
+    height: 12rem;
+    margin-bottom: 1rem;
+    border: 5px solid white;
+}
+.profile-cover{
+    position: relative;
+}
+.profile-UserInfo{
+    margin-top: calc(6vh + 1.5rem);
+}
+.profile-UserInfo1{
+    height: 10rem;
+}
+.userInfoPfp{
+    width: 8rem;
+    height: 8rem;
+}
+.hero{
+    margin-right: 2rem;
+}

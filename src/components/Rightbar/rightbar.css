@@ -1,0 +1,22 @@
+.rightbar{
+    margin-top: 6vh;
+    width: 100%;
+    height: 100rem;
+}
+.rightbar-ad{
+    margin-top: 1rem;
+}
+.rightbar-pfp{
+    width: 3rem;
+    height: 3rem;
+}
+.rightbar-anchor{
+    margin-top: 1rem;
+}
+.rightbar-para{
+    margin-left: 1rem;
+}
+.rightbar-header{
+    margin-top: 1rem;
+    font-weight: 600;
+}

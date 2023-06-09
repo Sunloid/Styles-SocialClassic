@@ -1,0 +1,57 @@
+.topbar{
+    background-color:#1877f2;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 6vh;
+    position:fixed;
+    z-index: 1 ;
+}
+.topbarCenter{
+    width: 40%;
+    height: 65%;
+    margin: 0;
+}
+.searchBar{
+    width: 90%;
+    border: none;
+    outline-style: none;
+}
+.topbarLeft{
+    cursor: pointer;
+    color:white;
+}
+.logo1{
+    padding-left: 1vh;   
+    cursor: pointer;
+}
+.logo{
+    font-size: 24px;
+    margin: 0;
+    padding-left: 1.4vh;
+    padding-right: 38vh;
+}
+.topbaLogo{
+    padding-left: 10vh;
+}
+.topbarRight{
+    padding-left: 3vh;
+}
+.topbarLink1{
+    padding-left: 1vh;      
+}
+.topbarLogo1{
+    width: 5vh;
+}
+.user1{
+    width: 5vh;
+    height: 5vh;
+}
+.topbarLink{
+    padding-right: 27vh;
+}
+.sidebar{
+    height: 100%;
+    width: 20%;
+    position: fixed;
+}

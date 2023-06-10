@@ -1,30 +1,30 @@
 .sidebar{
     height: 100%;
-    width: 24rem;
+    width: 20%;
     position: fixed;
     overflow-y: scroll;
-    margin-top: 6vh;
+    margin-top: 3rem;
 }
 .sidebarListItem{
     margin-top: 3vh;
 }
 .icon1{
-    margin-right: 2vh;
+    margin-right: 0.75vw;
 }
 .sidebarMore{
-    width: 20vh;
+    width: 10vw;
     height: 5vh;
-    margin-left: 3vh;
+    margin-left: 1.5vw;
 }
 ul{
     list-style-type:none;
 }
 .user2{
-    width: 4vh;
+    width: 2vw;
     height: 4vh;
 }
 .sidebarPpl{
-    margin-left: 1vh;
+    margin-left: 0.5vw;
 }
 .sidebarUsers{
     margin-top: 2vh;

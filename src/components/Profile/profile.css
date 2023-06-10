@@ -3,20 +3,22 @@
 }
 .profile-rightTop{
     margin-top: 0rem;
-    margin-left: 24.01rem;
+    margin-left: 20vw;
     
 }
 .profile-banner{
-    width: 95.65rem;
-    height: 30rem;    
+    width: 79.75vw;
+    height: 50vh;    
     border: 2px white;
     object-fit: cover;
 }
 .profileUserPfp{
-    width: 12rem;
-    height: 12rem;
+    width: 10vw;
+    height: 20.5vh;
     margin-bottom: 1rem;
     border: 5px solid white;
+    margin-top: -10vh;
+    z-index: 2;
 }
 .profile-cover{
     position: relative;
@@ -25,12 +27,12 @@
     margin-top: calc(6vh + 1.5rem);
 }
 .profile-UserInfo1{
-    height: 10rem;
+    height: 15vh;
 }
 .userInfoPfp{
-    width: 8rem;
-    height: 8rem;
+    width: 6.7vw;
+    height: 13.7vh;
 }
 .hero{
-    margin-right: 2rem;
+    margin-right: 1vw;
 }

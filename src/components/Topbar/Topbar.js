@@ -1,5 +1,5 @@
 import React from 'react';
-import User from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/assets/person/1.jpeg'
+import User from '../../assets/person/1.jpeg'
 
 const Topbar = ()=>{
     return(

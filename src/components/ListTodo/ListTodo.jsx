@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import '../ListTodo/listTodo.css'
-import user03 from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/assets/person/1.jpeg'
+import user03 from '../../assets/person/1.jpeg'
 
 const ListTodo = (props) => {
   const [count, setCount] = useState(0)
@@ -9,6 +9,10 @@ const ListTodo = (props) => {
     }
     function handleDisClick(){
         setCount(count-1)   
+    }
+
+    const handleDelete =() => {
+      props.deleteItem(props.index)
     }
   return (
     <>
@@ -37,9 +41,7 @@ const ListTodo = (props) => {
               <div>
                 <button 
                     className='fa-solid fa-trash fa-xl tweet-delete text-danger' 
-                    onClick={()=>{
-                      props.deleteItem(props.index)
-                    }} 
+                    onClick={handleDelete} 
                     >
                     </button>
                 <button className='btn text-success fa-xl fa-solid fa-bookmark'></button> 

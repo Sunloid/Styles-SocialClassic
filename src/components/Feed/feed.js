@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import User from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/assets/person/1.jpeg'
-import Post from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/components/Post/post.jsx'
-import dataPost from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/components/data.js'
+import User from '../../assets/person/1.jpeg'
+import Post from '../Post/post.jsx'
+import dataPost from '../data'
 import ListTodo from '../ListTodo/ListTodo'
 
 function Feed() {
@@ -25,8 +25,9 @@ function Feed() {
         setTweet([input,...tweet])
     }
     const deleteList=(GST)=>{
-        let newList=[...tweet]
-        newList.splice(GST,1)
+      console.log(GST)
+        let newList=tweet.splice(GST,1)
+        setTweet(newList)
     }
     const tweetMap= tweet.map((item,i)=>{
         return(

@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
-import 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/components/Post/post.css'
-import Postpic from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/assets/post/1.jpeg'
-import User from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/assets/person/1.jpeg'
-import 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/components/Post/post.css'
+import './post.css'
+
 
 
 const Post = (props)=>{

@@ -1,13 +1,13 @@
 import React from 'react'
-import user2 from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/assets/person/2.jpeg'
-import user3 from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/assets/person/3.jpeg'
-import user4 from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/assets/person/4.jpeg'
-import user5 from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/assets/person/5.jpeg'
-import user6 from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/assets/person/6.jpeg'
-import user7 from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/assets/person/7.jpeg'
-import user8 from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/assets/person/8.jpeg'
-import user9 from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/assets/person/9.jpeg'
-import user10 from 'C:/Users/sunlo/OneDrive/Desktop/Project-1/project/src/assets/person/10.jpeg'
+import user2 from '../../assets/person/2.jpeg'
+import user3 from '../../assets/person/3.jpeg'
+import user4 from '../../assets/person/4.jpeg'
+import user5 from '../../assets/person/5.jpeg'
+import user6 from '../../assets/person/6.jpeg'
+import user7 from '../../assets/person/7.jpeg'
+import user8 from '../../assets/person/8.jpeg'
+import user9 from '../../assets/person/9.jpeg'
+import user10 from '../../assets/person/10.jpeg'
 
 const Sidebar =()=>{
     return(

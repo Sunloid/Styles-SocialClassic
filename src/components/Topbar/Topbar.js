@@ -21,7 +21,7 @@ const Topbar = ()=>{
                     <a class="fa-solid fa-message fa-lg topbarLogo1 text-light text-decoration-none" href='#'></a>
                     <a class="fa-solid fa-bell fa-lg topbarLogo1 text-light text-decoration-none" href='#'></a>
                 </div>
-                <img src={User} className='user1 rounded-5' />
+                <a href='/'> <img src={User} className='user1 rounded-5' /> </a>
             </div>
         </div>
     )

@@ -8,7 +8,7 @@ function home() {
   return (
     <div>
       <Topbar/>
-        <div className='d-flex body-1'>
+        <div className='body-1 d-flex'>
           <Sidebar/>
           <Feed/>
           <Rightbar/> 

@@ -25,6 +25,8 @@
 }
 .profile-UserInfo{
     margin-top: calc(6vh + 1.5rem);
+    margin-left: 3%;
+    width: 40%;
 }
 .profile-UserInfo1{
     height: 15vh;

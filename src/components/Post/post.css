@@ -8,3 +8,16 @@
     background-color: white;
     height: 3rem;
 }
+@media  screen and (max-width:768px) {
+    .feed-pfp-2{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+}
+@media screen and (max-width:394px){
+    .feed-para-1{
+        font-size:0.74rem;
+        margin-left: 0.74rem;
+    }
+}

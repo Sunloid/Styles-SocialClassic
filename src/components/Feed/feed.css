@@ -2,14 +2,17 @@
     height: 100rem;
     width: 100%;
     margin-left: 20%;
-    margin-top: 6vh;
+    margin-top: 2vh;
 }
 .feed-wrapper{
     -webkit-box-shadow:0px 0px 16px -8px rgba(0,0,0.68);
     box-shadow: 0px 0px 16px -8px rgba(0,0,0.68);
     height: 18rem;
     width: 100%;
-    margin: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 7vh;
+    margin-bottom:1.5rem;
+    margin-left: 1.2vw;
 }
 .feed-pfp{
     width: 7.29%;
@@ -36,13 +39,15 @@
 }
 .feed-button-1{
     margin-left: 1.9vw;
+    /* width: 9rem; */
 }
 .feed-para{
-    margin-left: 0.9vw;
+    margin-left: 0.5vw;
     font-size: 1.2rem;
 }
 .feed-share{
     margin-left: 2.8vw;
+    width: 25%;
 }
 .feed-wrapper-2{
     -webkit-box-shadow:0px 0px 16px -8px rgba(0,0,0.68);
@@ -57,6 +62,8 @@
 }
 .feed-para-1{
     margin-left: 1rem;
+    width: 45%;
+    margin-right: 2rem;
 }
 .feed-anchor{
     margin-bottom: 1rem;
@@ -64,6 +71,7 @@
 .feed-para-2{
     margin-left: 1rem;
     font-size: 0.9rem;
+    width: 6rem;
 }
 .feed-option{
     margin: 1.2rem;
@@ -77,4 +85,22 @@
 }
 .feed-post-1{
     margin: 0.89vw;
+}
+
+@media screen and (max-width:767px){
+    .feed{
+        margin-left:5vw;
+    }
+    .feed-pfp{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+@media screen and (max-width:486px){
+    .feeling{
+        display: none !important;
+    }
+    .feed-para{
+    font-size: small;
+    }
 }

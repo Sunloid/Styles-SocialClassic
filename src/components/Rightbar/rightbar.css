@@ -23,3 +23,9 @@
     margin-top: 1.7vh;
     font-weight: 600;
 }
+@media screen and (max-width:768px){
+    .rightbar{
+        display: none;
+    }
+}
+ 

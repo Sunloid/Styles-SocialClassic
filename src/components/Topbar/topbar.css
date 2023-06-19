@@ -1,57 +1,29 @@
-.topbar{
-    background-color:#1877f2;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    height: 3rem;
-    position:fixed;
+.Topbar-new{
     z-index: 6 ;
+    position:fixed;
+    width: 100%;
 }
-.topbarCenter{
-    width: 40%;
-    height: 65%;
-    margin: 0;
+.pfp-exp{
+    width: 4vh;
+    height: 4vh;
 }
-.searchBar{
+.searchbar{
     width: 90%;
     border: none;
     outline-style: none;
+    height: 3.5vh;
 }
-.topbarLeft{
-    cursor: pointer;
-    color:white;
+.exp-right{
+    margin-left: 20vw;
 }
-.logo1{
-    padding-left: 1vh;   
-    cursor: pointer;
+@media screen and (max-width:768px){
+    .exp-right{
+        margin-left:0px;
+    }
 }
-.logo{
-    font-size: 24px;
-    margin: 0;
-    padding-left: 1.4vh;
-    padding-right: 38vh;
-}
-.topbaLogo{
-    padding-left: 10vh;
-}
-.topbarRight{
-    padding-left: 3vh;
-}
-.topbarLink1{
-    padding-left: 1vh;      
-}
-.topbarLogo1{
-    width: 5vh;
-}
-.user1{
-    width: 5vh;
-    height: 5vh;
-}
-.topbarLink{
-    padding-right: 27vh;
-}
-.sidebar{
-    height: 100%;
-    width: 20%;
-    position: fixed;
+@media screen and (min-width:768px){
+    .nav-right{
+        display: flex;
+        justify-content: end;
+    } 
 }

@@ -6,4 +6,10 @@
 }
 .body-1{
   width: 100%;
+  margin-left: 0;
+}
+@media screen and (max-width:768px){
+  .body-1{
+    width:90vw;
+  }
 }

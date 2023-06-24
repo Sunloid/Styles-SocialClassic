@@ -5,7 +5,7 @@ Features
 1.User profiles: Show user profiles with profile pictures, bio, and activity history.
 2.Post creation: Enable users to create and share posts with text, images, or videos.
 3.Like functionality: Allow users to like the posts.
-4.Responsive: The code is responsive for different desktops.
+4.Responsive: Responsive for all laptops, desktops and mobile devices upto the width of 375px.
 
 Technologies used
 1.React.js: A JavaScript library for building user interfaces.

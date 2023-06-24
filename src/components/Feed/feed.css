@@ -39,7 +39,6 @@
 }
 .feed-button-1{
     margin-left: 1.9vw;
-    /* width: 9rem; */
 }
 .feed-para{
     margin-left: 0.5vw;
@@ -107,5 +106,16 @@
 @media screen and (max-width:321px){
     .feed-wrapper{
         margin-top: 4rem;
+        margin-right: 0;
+        
+    }
+}
+@media screen and (min-width:322px){
+    @media screen and (max-width:376px){
+        .feed-wrapper{
+            margin-top: 4rem;
+            margin-right:0rem;
+            width: 95%;
+        }
     }
 }

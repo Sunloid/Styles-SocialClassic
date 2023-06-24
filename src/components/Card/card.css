@@ -45,3 +45,34 @@
         font-size: large;
     }
 }
+@media screen and (min-width:322px){
+    @media screen and (max-width:376px){
+        .card-1{
+            width: 92%;
+            height: 30rem;
+            padding-bottom: 1rem;
+        }
+        .card-pfp{
+            width: 2.5rem;
+            height: 2.5rem;
+        }
+        .card-username{
+        font-size: 15px;
+    }
+    .card-name-time{
+        display: block;
+    }
+    .card-time{
+        font-size: 0.8rem;
+        margin-left: 0.5rem;
+    }
+    .card-wrapper{
+        margin-bottom: 1.2rem;
+        margin-right: -1rem;
+        width: 90vw;
+    }
+    .card-counter{
+        font-size: large;
+    }
+}
+}

@@ -38,6 +38,10 @@
 .hero{
     margin-right: 1vw;
 }
+.profile-feed{
+    margin-left: 7%;
+    width: 80rem;
+}
 @media screen and (max-width:321px){
     .profile-UserInfo{
         display: none;
@@ -55,10 +59,43 @@
         width: 100vw;
     }
     .profile-banner{
-        width: 100vw;
+        width: 101.5vw;
         height: 50vh;    
         border: 2px white;
         object-fit: cover;
     }
+    .profile-feed{
+        margin-left: 0px;
+        margin-right: 50px;
+    }
     
+}
+@media screen and (min-width:322px){
+    @media screen and (max-width:376px){
+        .profile-UserInfo{
+            display: none;
+        }
+        .profile-rightTop{
+            margin-top: 0rem;
+            margin-left: 0vw;   
+        }
+        .profileUserPfp{
+            width: 6rem;
+        height: 6rem;
+        margin-bottom: 0.5rem;
+    }
+    .profile-cover{
+        width: 100vw;
+    }
+    .profile-banner{
+        width: 101.5vw;
+        height: 50vh;    
+        border: 2px white;
+        object-fit: cover;
+    }
+    .profile-feed{
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+}
 }

@@ -44,6 +44,7 @@ ul{
 .experiment-1{
     margin-top: 3rem;
 }
+
 @media screen and (min-width:768px){
     .sidebar-responsive{
         display: none;
@@ -58,5 +59,8 @@ ul{
         width: 0vw;
         z-index: 2;
         position: fixed;
+    }
+    .sidebar-exp{
+        margin-left: -1rem;
     }
 }

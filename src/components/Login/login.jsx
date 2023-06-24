@@ -13,8 +13,8 @@ function login() {
           <div className='login-card d-flex flex-column rounded-4 align-items-center'>
             <input type='text' placeholder='Email' className=' login-input rounded-2'/>
             <input type='text' placeholder='Password' className='login-input  rounded-2'/>
-            <a href='/home' type='submit' className='login-button-1 btn rounded-3 text-light btn-success'>Log In</a>
-            <button type='submit' className=' btn login-button rounded-3 text-light ' >Sign Up</button>
+            <a href='/home' type='submit' className='login-button-1 btn fs-5 rounded-3 text-light btn-success'>Log In</a>
+            <button type='submit' className=' btn login-button rounded-3 text-light fs-5' >Sign Up</button>
           </div>     
         </div>
       </div>

@@ -10,7 +10,7 @@ import user04 from '../../assets/person/4.jpeg'
 import user05 from '../../assets/person/5.jpeg'
 import user06 from '../../assets/person/6.jpeg'
 import user07 from '../../assets/person/7.jpeg'
-import Topbar from '../Topbar/topbar.js'
+import Topbar from '../Topbar/Topbar.js'
 
 function profile() {
   return (

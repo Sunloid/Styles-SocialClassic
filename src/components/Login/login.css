@@ -46,3 +46,79 @@
     font-size: 1.5rem;
     margin-top: 1rem;
 }
+@media screen and (max-width:321px){
+    .login{
+        width: 100%;
+        height: 100%;
+        background-color: #1775ee;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    
+    .login-card{
+        width: 80vw;
+        background-color: whitesmoke;
+        margin-left: 1rem;
+    }
+    .login-input{
+        width: 70vw;
+    }
+    .login-button{
+        width: 40vw;
+    }
+    .login-button-1{
+        width: 50vw;
+        height: 8vh;
+    }
+    .login-wrapper{
+        display: block !important;
+    
+    }
+    .login-header-1{
+        display: none;
+    }
+    .login-header{
+        font-size:3rem;
+        color:white;
+        width: 18rem;
+    }
+}
+
+@media screen and (max-width:376px){
+    .login{
+        width: 100%;
+        height: 100%;
+        background-color: #1775ee;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    
+    .login-card{
+        width: 80vw;
+        background-color: whitesmoke;
+        margin-left: 1.5rem;
+    }
+    .login-input{
+        width: 70vw;
+    }
+    .login-button{
+        width: 40vw;
+    }
+    .login-button-1{
+        width: 50vw;
+        height: 8vh;
+    }
+    .login-wrapper{
+        display: block !important;
+    
+    }
+    .login-header-1{
+        display: none;
+    }
+    .login-header{
+        font-size:3rem;
+        color:white;
+        width: 18rem;
+        margin-left: 1.75rem;
+    }
+}

@@ -1,0 +1,47 @@
+.card-1{
+    width: 98%;
+    object-fit: cover;
+}
+.card-2{
+    width: 100%; 
+    -webkit-box-shadow:0px 0px 16px -8px rgba(0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0.68);
+}
+.card-pfp{
+    width: 3rem;
+    height: 3rem;
+}
+.card-wrapper{
+    margin: 1.2vw;
+}
+.card-name-time{
+    display: flex;
+}
+
+@media screen and (max-width:321px){
+    .card-1{
+        width: 96%;
+        height: 30rem;
+        padding-bottom: 1rem;
+    }
+    .card-pfp{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .card-username{
+        font-size: 15px;
+    }
+    .card-name-time{
+        display: block;
+    }
+    .card-time{
+        font-size: 0.8rem;
+        margin-left: 0.5rem;
+    }
+    .card-wrapper{
+        margin-bottom: 1.2rem;
+    }
+    .card-counter{
+        font-size: large;
+    }
+}

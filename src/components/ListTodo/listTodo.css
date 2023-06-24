@@ -1,5 +1,5 @@
 .tweet{
-    background-color: black;
+    /* background-color: black; */
     margin-left: 1.3vw;
     width: 100%;
     padding: 0rem;
@@ -20,6 +20,7 @@
 .tweet-output{
     width: 45.8vw;    
     height: 100%;
+    margin-top: 1rem;
 }
 .tweet-delete{
     border: none;
@@ -36,4 +37,29 @@
     margin-bottom: 2rem;
 }
 
+@media screen and (max-width:321px){
+    .tweet-pfp{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .tweet-name{
+        font-size: 15px;
+    }
+    .tweet-name-time{
+        display: block !important;
+    }
+    .tweet-time{
+        font-size: 0.8rem;
+    }
+    .tweet-output{
+        margin-top: 0.75rem;
+    }
+    .tweet-count{
+        font-size: large;
+    }
+    .post-button{
+        width: 2rem;
+        height: 2rem;
+    }
+}
 

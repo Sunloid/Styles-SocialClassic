@@ -2,7 +2,7 @@ import React from 'react'
 import Sidebar from '../Sidebar/sidebar'
 import Feed from '../Feed/feed'
 import Rightbar from '../Rightbar/rightbar'
-import Topbar from '../Topbar/topbar'
+import Topbar from '../Topbar/Topbar'
 import '../Home/home'
 
 function home() {

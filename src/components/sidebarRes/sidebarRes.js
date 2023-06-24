@@ -14,7 +14,7 @@ const Experiment = ()=>{
     return(
         <div>
             <button className="btn btn-primary rounded-circle sidebar-exp" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
-                Explore
+              <i class="fa-solid fa-arrow-right"></i>
             </button>
             <div className="offcanvas offcanvas-start experiment-1" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
               <div className="bg-primary offcanvas-header">

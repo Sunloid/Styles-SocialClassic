@@ -7,9 +7,9 @@ import './components/Feed/feed.css'
 import './components/Rightbar/rightbar.css'
 import Home from './components/Home/home';
 import Profile from './components/Profile/profile';
-import Login from './components/Login/login'
+import Login from './components/Login/login';
+import Card from './components/Card/card';
 import {
-  
   BrowserRouter as Router,
   Routes,
   Route
@@ -24,6 +24,7 @@ root.render(
         <Route path='/home' element={<Home/>}/>
         <Route path='/profile' element={<Profile/>}/>
         <Route path='' element={<Login/>}/>
+        <Route path='/exp' element={<Card />}/>
       </Routes>
     </Router>  
   </React.StrictMode>

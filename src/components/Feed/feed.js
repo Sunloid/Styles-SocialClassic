@@ -3,17 +3,19 @@ import User from '../../assets/person/1.jpeg'
 import Post from '../Post/post.jsx'
 import dataPost from '../data'
 import ListTodo from '../ListTodo/ListTodo'
+import Card from '../Card/card'
 
 function Feed() {
   const handleData = dataPost.map((info)=>{
     return(
-      <Post
+      <Card
           userName={info.userName}
           profilePic={info.profilePic}
           postPic={info.postPic}
           time={info.time}
           caption={info.caption}
       />
+      
     )
   })
     const [ input , setInput ] = useState("")

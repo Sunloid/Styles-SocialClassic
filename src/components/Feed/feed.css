@@ -104,3 +104,8 @@
     font-size: small;
     }
 }
+@media screen and (max-width:321px){
+    .feed-wrapper{
+        margin-top: 4rem;
+    }
+}

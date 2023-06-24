@@ -18,7 +18,7 @@
     margin-bottom: 1rem;
     border: 5px solid white;
     margin-top: -10vh;
-    z-index: 2;
+    z-index: 1;
 }
 .profile-cover{
     position: relative;
@@ -37,4 +37,28 @@
 }
 .hero{
     margin-right: 1vw;
+}
+@media screen and (max-width:321px){
+    .profile-UserInfo{
+        display: none;
+    }
+    .profile-rightTop{
+        margin-top: 0rem;
+        margin-left: 0vw;   
+    }
+    .profileUserPfp{
+        width: 6rem;
+        height: 6rem;
+        margin-bottom: 0.5rem;
+    }
+    .profile-cover{
+        width: 100vw;
+    }
+    .profile-banner{
+        width: 100vw;
+        height: 50vh;    
+        border: 2px white;
+        object-fit: cover;
+    }
+    
 }
